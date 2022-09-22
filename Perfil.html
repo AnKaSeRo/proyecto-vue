@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    
+</head>
+<body>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a class="enlace1" href="#"></a>
+            <a class="enlace2" href="#"></a>
+        </nav>	
+    </div>
+
+    
+    
+    <div class="contenido">
+        <img class="foto" src="https://th.bing.com/th/id/OIP.0lcuAsQ0V1GwktjPc0SUlgHaG4?pid=ImgDet&rs=1"/>
+    
+        <div class="datos">
+            <p>Alumno: Andrea Karina Serrano Rodríguez</p>
+            <p>Matricula: 1994424 </p>
+            <p>Carrera: ITS</p>
+            <p>Agosto –Diciembre 2022</p>
+            
+        </div>
+    </div>
+    
+    
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+
+    <a href="/">Regresar</a>
+
+    <footer>
+        <p>Todos los derechos reservados. Andrea Karina Serrano Rdz</p>
+    </footer>
+
+    <style>
+        :root { /*AQUI PUEDES ALMACENAR CUALQUIER TIPO DE VALORES*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #e1cf4b;
+    --secundario: #0eaff1;
+    --gris: #757575;
+
+
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #ffffff;
+}
+
+body{
+    font-size: 16px; /* 1rem=10px , utilizar estos dos codigps de arriba en todos mis proyectos*/
+	font-family: Gill Sans Nova;
+	
+}
+
+.contenido {
+	margin-top: 15rem;
+	margin-bottom: 15rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (min-width: 480px) {
+    .datos {
+	font-size: .5px;
+}
+.foto {
+	display:block;
+	margin-right: 2rem;
+	width: 40rem;
+	border-radius: 2rem;
+}
+
+}
+
+.datos {
+	font-size: 30px;
+}
+
+
+.foto {
+	display:block;
+	margin-right: 2rem;
+	width: 40rem;
+	border-radius: 2rem;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    max-width: 120rem;
+    margin: 0 auto;/*en vez de poner los cuatro valores pones uno*/
+}
+
+.nav-bg {
+	border-radius: 4rem;
+    background-color: var(--secundario);
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navegacion-principal {
+        flex-direction: row;
+        justify-content: space-around;
+        
+   
+}
+
+
+
+
+
+.navegacion-principal a {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+.navegacion-principal a:hover {
+	border-radius: 6rem;
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+footer {
+	text-align: center;
+}
+
+    </style>
+     
+</body>
+</html>
